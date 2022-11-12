@@ -1,2 +1,1 @@
- " << a << endl;
-        cout << "b = " << b << endl;
+b1

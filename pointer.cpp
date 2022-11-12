@@ -44,8 +44,5 @@ int main()
     cout << " aryptr[1] = " << aryptr[1] << endl;
     cout << " *aryptr = " << *aryptr << endl;
 
-    string str = "sourav kumar saini";
-
-    string *strptr = str;
-    return 0;
+        return 0;
 }

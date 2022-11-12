@@ -70,15 +70,15 @@ int main()
 
     string str = "This function swaps one string with other";
 
-    cout << "length of str \' string \' is " << str->length() << endl;
-    cout << "capacity of str \' string \' is " << str->capacity() << endl;
+    cout << "length of str \' string \' is " << str.length() << endl;
+    cout << "capacity of str \' string \' is " << str.capacity() << endl;
 
-    str->resize(35);
-    cout << "capacity of str \' string \' after resize is " << str->capacity() << endl;
+    str.resize(35);
+    cout << "capacity of str \' string \' after resize is " << str.capacity() << endl;
 
-    str->shrink_to_fit();
-    cout << "capacity of str \' string \' after shrink is " << str->capacity() << endl;
-    cout << "length of str \' string \' is " << str->length() << endl;
+    str.shrink_to_fit();
+    cout << "capacity of str \' string \' after shrink is " << str.capacity() << endl;
+    cout << "length of str \' string \' is " << str.length() << endl;
 
     /*
          Iterator Functions
