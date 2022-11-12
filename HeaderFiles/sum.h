@@ -22,6 +22,11 @@ t modl(t a, t b)
 {
     return a % b;
 }
+template <class t>
+t divd(t a, t b)
+{
+    return a / b;
+}
 
 class mathe
 {
@@ -49,5 +54,10 @@ public:
     t modl(t a, t b)
     {
         return a % b;
+    }
+    template <class t>
+    t divd(t a, t b)
+    {
+        return a / b;
     }
 };
