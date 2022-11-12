@@ -48,7 +48,7 @@ void multiply(int a, int b)
 #include <stdio.h>
 
 // " " used to import user-defined file
-#include "process.h"
+#include "file_name.h"
 
 // main function
 int main()
@@ -64,6 +64,13 @@ int main()
     return 0;
 }
 ```
+
+---
+
+## Creat user defind file
+
+- creat file with name "sum.h"
+- creat main file "AddTowNum.cpp" and add `#include "./HeaderFiles/sum.h"` in "AddTowNum.cpp" file and after use function of sum.h file in AddTowNum.cpp.
 
 ---
 
