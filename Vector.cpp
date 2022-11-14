@@ -8,6 +8,11 @@ int main()
 
     vector<int> vec{25, 236, 251, 142, 256, 3, 6, 2, 58};
 
+    for (auto &itam : vec)
+    {
+        cout << itam << endl;
+    }
+
     vector<int>::iterator itr;
 
     for (auto itr = vec.begin(); itr != vec.end(); itr++)
@@ -67,6 +72,7 @@ int main()
 
     cout << "clear element all " << endl;
     vec.clear();
+
     return 0;
 }
 
